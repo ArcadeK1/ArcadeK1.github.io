@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Circe Bold";
+    src: url(../media/fonts/CirceBold/CirceBold.ttf);
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url(../media/fonts/PTSans/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PT Sans Bold";
+    src: url(../media/fonts/PTSans/PTSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PT Sans Italic";
+    src: url(../media/fonts/PTSans/PTSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: "PT Sans Bold Italic";
+    src: url(../media/fonts/PTSans/PTSans-BoldItalic.ttf);
+}
+
+
+.adminzone
+{
+    font-size: 24px;
+    font-family: "PT Sans Bold";
+    margin-bottom: 30px;
+}
+
+
+.adminzone h2
+{
+    text-align: center;
+}
+
+
+
+#newscard
+{
+    border-radius: 6px;
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    width: auto;
+    min-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "PT Sans Bold";
+    padding: 10px;
+}
+
+
+#newscarddesc
+{
+    margin-left: 15px;
+}
+
+.addsomenews
+{
+    text-align: center;
+    font-size: 24px;
+    font-family: "PT Sans Bold";
+    
+}
+
+.addsomenews a
+{
+    background-color: rgb(199, 125, 15);
+    padding: 10px;
+    color:white;
+    font-size: 22px;
+    font-family: "PT Sans Bold";
+    border-radius: 20px;
+    border: 1px solid rgb(185, 185, 185);
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+
+.addsomenews a:hover
+{
+    transition: all 0.3s;
+    padding: 15px;
+}
+
+
+.addnewspage
+{
+    font-size: 24px;
+    font-family: "PT Sans Bold";
+    
+}
+
+.addnewspage h2
+{
+    text-align: center;
+}
+
+.addnewsform
+{
+    border-radius: 6px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "PT Sans Bold";
+    width: 40%;
+    border: 1px solid rgb(19, 19, 19);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+#createbtn
+{
+    background-color: rgb(199, 125, 15);
+    padding: 10px;
+    color:white;
+    font-size: 22px;
+    font-family: "PT Sans Bold";
+    border-radius: 20px;
+    border: 1px solid rgb(185, 185, 185);
+    transition: all 0.3s;
+}
+
+
+#createbtn:hover
+{
+    padding: 15px
+}
+
+
+.sections
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 30%;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.sections a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#selected
+
+{
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+
+
+
+#carouselcard
+{
+    border-radius: 6px;
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    width: auto;
+    min-width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "PT Sans Bold";
+    padding: 10px;
+}
+
+
+#newscarddesc
+{
+    margin-left: 15px;
+}
+
+#carouselcard img
+{
+    border: 1px solid rgba(122, 122, 122, 0.26);
+    border-radius: 6px;
+    margin-right: 10px;
+
+}
+
+
+.buttonset
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttonset form
+{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
